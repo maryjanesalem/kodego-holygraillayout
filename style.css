@@ -56,7 +56,6 @@ form {
     padding: 30px;
     justify-content:space-between;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .field {
@@ -76,7 +75,7 @@ form {
 
 .field input, select {
     flex: 3;
-    padding: 5px;
+    height: 35px;
 }
 
 .flex-item.right {
