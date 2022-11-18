@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail Layout with Forms</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>Header</header>
+    <main>
+        <article>
+            <form>
+                <div class="formdiv">
+                <div class="container">
+                    <div class="flex-item left">
+                        <div class="field">
+                            <label for="name">Name </label>
+                            <input type="text" id="name">
+                        </div>
+                        <div class="field">
+                            <label for="phone">Phone </label>
+                            <input type="text" id="phone">
+                        </div>
+                        <div class="field">
+                            <label for="email">Email </label>
+                            <input type="email" id="email">
+                        </div>
+                        <div class="field">
+                            <label for="date">Pickup Date Time </label>
+                            <input type="date" id="date">
+                        </div>
+                        <div class="field">
+                            <label for="pickupPlace">Pickup Place </label>
+                            <select name="pickupPlace" id="pickupPlace">
+                                <option selected disabled value="">Select One</option>
+                                <option value="Place 1">Place 1</option>
+                                <option value="Place 2">Place 2</option>
+                                <option value="Place 3">Place 3</option>
+                                <option value="Place 4">Place 4</option>
+                            </select>
+                        </div>
+                        <div class="field">
+                            <label for="dropoffPlace">Dropoff Place </label>
+                            <input type="text" id="dropoffPlace">
+                        </div>
+                    </div>
+                    <div class="flex-item right">
+                        Which vehicle do you require?
+                        <br>
+                        <input type="radio" name="vehicle" id="van" value="Van">
+                        <label for="van">Van</label>
+                        <br>
+                        <input type="radio" name="vehicle" id="jeepney" value="Jeepney">
+                        <label for="jeepney">Jeepney</label>
+                        <br>
+                        <input type="radio" name="vehicle" id="tricycle" value="Tricycle">
+                        <label for="tricycle">Tricycle</label>
+                        <br>
+                        <br>
+                        Extras:
+                        <br>
+                        <input type="checkbox" name="extras" id="babySeat" value="Baby Seat">
+                        <label for="babySeat">Baby Seat</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="extras" id="wheelchairAccess" value="Wheelchair Access">
+                        <label for="wheelchairAccess">"Wheelchair Access</label>
+                        <br>
+                        <br>
+                        <input type="checkbox" name="extras" id="stockTip" value="Stock Tip">
+                        <label for="stockTip">Stock Tip</label>
+                        <br>
+                    </div>
+                </div>
+                <div class="btn-container">
+                    <input type="submit" value="Submit Booking">
+                </div>
+            </div>
+            </form>
+        </article>
+        <aside>Aside</aside>
+        <nav>Nav</nav>
+    </main>
+    <footer>Footer</footer>
+</body>
+</html>
