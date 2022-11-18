@@ -45,10 +45,7 @@ article {
 }
 
 .btn-container {
-    height: 15%;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    height: 10%;
 }
 
 form {
