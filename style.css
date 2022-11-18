@@ -79,6 +79,7 @@ form {
 
 .flex-item.right {
     width: 30%;
+    line-height: 35px;
 }
 
 input[type="submit"] {
